@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h3>
+This is for WoodroffeHS.com but may be used on other sites.
+</h3>
+<h4>Quickly create a twitter embed that isn't obscured by your CMS</h4>
+<form action="/" method="post">
+  <Label>
+    Username:
+    <input type="text" name="screenName" />
+  </Label>
+  <button>Submit</button>
+</form>
+<p>
+  {{outputVal}}
+</p>
+{% endblock %}
